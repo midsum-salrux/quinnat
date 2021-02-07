@@ -75,7 +75,6 @@ class Quinnat():
             original.host_ship, original.resource_name, *contents
         )
 
-
     def is_node_add(self, data):
         return ("json" in data) and \
         ("graph-update" in data["json"]) and \

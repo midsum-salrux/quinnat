@@ -1,4 +1,5 @@
 build/
 dist/
 quinnat.egg-info/
+quinnat/__pycache__/
 *.pyc

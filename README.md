@@ -12,7 +12,7 @@ import quinnat
 q = quinnat.Quinnat(
     "http://localhost:8080", # or wherever your ship is running
     "sampel-palnet",
-    "your-code-here",
+    "your-+code-here",
 )
 
 q.connect()

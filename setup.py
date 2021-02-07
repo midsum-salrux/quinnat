@@ -5,13 +5,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="quinnat",
-    version="1.0.0",
+    version="1.0.1",
     author="~midsum-salrux",
     author_email="",
     description="Library for building chatbots on urbit",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/midsum-salrux/quinnat",
     packages=setuptools.find_packages(),
     install_requires=['urlock'],
     classifiers=[],
