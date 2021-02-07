@@ -1,0 +1,4 @@
+build/
+dist/
+quinnat.egg-info/
+*.pyc
