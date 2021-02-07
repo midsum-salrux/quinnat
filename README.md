@@ -20,7 +20,7 @@ q.connect()
 q.post_message("palnet-sampel", "my-chat-1234", {"text": "Hello world!"})
 
 def say_hello(message, replier):
-    if "hello bot" in message.full_text():
+    if "hello bot" in message.full_text:
         replier({"text": "Hello " + message.author})
 
 q.listen(say_hello)
