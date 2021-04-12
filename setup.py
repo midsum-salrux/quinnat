@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="quinnat",
-    version="1.0.1",
+    version="1.0.2",
     author="~midsum-salrux",
     author_email="",
     description="Library for building chatbots on urbit",
@@ -15,5 +15,5 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=['urlock'],
     classifiers=[],
-    python_requires='>=3.9',
+    python_requires='>=3.0',
 )
