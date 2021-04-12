@@ -66,7 +66,7 @@ class Quinnat():
         self.ship.poke(
             self.ship_name,
             "graph-push-hook",
-            "graph-update",
+            "graph-update-1",
             poke_obj
         )
 
