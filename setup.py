@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="quinnat",
-    version="1.0.3",
+    version="1.0.4",
     author="~midsum-salrux",
     author_email="",
     description="Library for building chatbots on urbit",

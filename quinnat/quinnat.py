@@ -82,13 +82,23 @@ class Quinnat():
 
 class Message():
     def __init__(self, resource_name, host_ship, author, time_sent, contents):
+        def element(c):
+            if "text" in c:
+                return c["text"]
+            elif "url" in c:
+                return c["url"]
+            elif "mention" in c:
+                return c["mention"]
+            else:
+                return ""
+
         self.resource_name = resource_name
         self.host_ship = host_ship
         self.author = author
         self.time_sent = time_sent
         self.contents = contents
         self.full_text = "\n".join([
-            c["text"] if "text" in c else (c["url"] if "url" in c else "")
+            element(c)
             for c
             in self.contents
         ])
